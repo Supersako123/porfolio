@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.body {
+
+
+
+}
+
+
+@keyframes fadeInLeft {
+ 
+  0% {
+    opacity: 0;
+    transform: translateX(-25px); 
+  }
+  50% {
+    opacity: 0;
+    transform: translateX(-25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(25px); 
+  }
+  50% {
+    opacity: 0;
+    transform: translateX(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fadein-left {
+  animation: fadeInLeft 1.6s ease-out; 
+}
+
+.fadein-right {
+  animation: fadeInRight 1.6s ease-out; 
+}
+
+
+@keyframes fadeInButton {
+  0% {
+    opacity: 0;
+    transform: translateY(25px); 
+  }
+  70% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-button {
+  animation: fadeInButton 2.3s ease-out; 
+}
+
+
+.Typewriter__cursor {
+font-weight:800;
+
+}
+
+.Typewriter__wrapper {
+
+  font-family: monospace;
+
+}
+
+.custom-shadow {
+
+  box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.75);
+
+}
+
+
+.btn-0 {
+
+  position: relative;
+  overflow: hidden;
+  transition: 0.2s;
+  z-index: 0;
+  
+  &:before {
+    z-index: -1;
+    content: '';
+    background-color: cornFlowerblue;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s cubic-bezier(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    right: 100%;
+    
+  }
+
+  &:hover {
+    color: #e0f4fb;
+    &:before{
+      content: '';
+      right: 0%;
+    }
+
+  }
+
+}
+
+.homePageGradient {
+
+  background: hsla(196, 77%, 93%, 1);
+
+  background: linear-gradient(90deg, hsla(196, 77%, 93%, 1) 0%, hsla(197, 39%, 70%, 1) 100%);
+
+}
+
+
+
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+.Slanted {
+  position: relative;
+
+  /* Adjust the top value to position the separator */
+  &:before {
+
+    position: absolute;
+    content: "";
+    background-color: #93BFD0;
+    width: 100%;
+    height: 200px; /* Fixed height for the separator */
+    top: calc(90%); /* Position the separator in the middle */
+    transform: skewY(-3deg);
+  }
+}
+
+.pictureShadow {
+
+  box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.75);
+
+}
