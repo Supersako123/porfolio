@@ -17,21 +17,19 @@ export default function Home(props) {
         <div className="text-[1.2rem] flex flex-col mt-40 fadein-left sm:text-center sm:mt-10">
           <div className="text-[21px] font-semibold">Hi, my name is</div>
           <h1 className="text-[clamp(35px,4.5vw,4.5vw)] min-text font-bold">Jonathan Sako.</h1>
-          <div className="flex w-[40rem] pb-8 text-[1.2rem] font-semibold sm:hidden sm:px-5">
-            Im a front end developer with a passion
-            for front end developing.
-            on the beach and im a cool dude that loves to party.
-            Text to make this 3 rows and good looking
+          <div className="flex w-[42rem] pb-8 text-[1.2rem] font-semibold sm:hidden sm:px-5">
+          I am a dedicated font end web developer with a passion for innovation and simplicity. I love learning new things and am committed to producing industry-standard web experiences.
+
             </div>
             <div className="w-[40rem] pb-8 text-[1.2rem] font-semibold sm:w-[20rem] sm:block hidden sm:self-center sm:px-5">
-            Im a front end developer with a passion
-            for front end developing.
+            I am a front end web developer with a passion
+            for innovation and simplicity
             </div>
         </div>
         <div className="flex fade-in-button gap-6 sm:flex-col sm:columns-1 sm:gap-2 sm:w-56 sm:ml-auto sm:mr-auto">
-          <MyButton onClick={() => scroll({top: 730, behavior: 'smooth'})}>Skills</MyButton>
-          <MyButton onClick={() => scroll({top: 1500, behavior: 'smooth'})}>About</MyButton>
-          <MyButton onClick={() => scroll({top: 2420, behavior: 'smooth'})}>Projects</MyButton>
+          <MyButton onClick={() =>props.skillsRef.current.scrollIntoView({ behavior: "smooth", block: "center"})}>Skills</MyButton>
+          <MyButton onClick={() =>props.aboutRef.current.scrollIntoView({ behavior: "smooth", block: "start"})}>About</MyButton>
+          <MyButton onClick={() =>props.projectRef.current.scrollIntoView({ behavior: "smooth", block: "start"})}>Projects</MyButton>
           <MyButton>Contact</MyButton>
         </div>
       </div>

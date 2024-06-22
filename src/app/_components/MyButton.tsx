@@ -2,16 +2,18 @@ import React from 'react'
 import { cva } from "class-variance-authority";
 
 type ButtonProps = React.HTMLAttributes<HTMLButtonElement> & {
-  variant?: 'small' | 'medium'
+  variant?: 'small' | 'medium',
+  link?: string
 }
 
 
 
 export default function MyButton({variant, ...props}: ButtonProps) {
-
+  
   return (
-    <button {...props} className={buttonVariants({variant})} />
-  )
+   props.link ?  <button onClick={() => window.open(props.link)} {...props} className={buttonVariants({variant})} /> 
+    :  <button {...props} className={buttonVariants({variant})} /> 
+)
 
 
 

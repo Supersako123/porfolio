@@ -7,15 +7,16 @@ export default function AboutMe() {
       <div className="">
         <p className="relative text-left font-bold text-[4rem] top-[-20px] lg:text-center lg:text-[3rem] lg:mt-4">About Me</p>
         <div className="flex gap-56 h-auto">
-          <div style={{ width: 'clamp(350px, 50vw, 650px)' }} className="lg:text-center lg:p-4 text-black font-semibold text-[16px]">
+          <div style={{ width: 'clamp(350px, 50vw, 650px)' }} className="lg:text-center lg:p-4 text-black font-semibold text-[17px]">
             <p>
-              Hi, my name is <span className="font-bold">Jonathan Sako</span> cahh aw god maf damn im herfe to sell this racecar my do you wanna buy this racecar? barabque bacon burger biscuit
+            Hi, I'm a junior at UNLV with a lifelong passion for technology. I started learning JavaScript and web development in college, and it quickly became a major interest of mine.
+            
             </p>
             <p className="mt-4 indent-4">
-              he was running from a cop cahh aw god maf damn im herfe to sell this racecar my do you wanna buy this racecar? barabque bacon burger biscuit ohhhh my goawaad
+            I love the turning ideas into reality through code. The more I learn, the more fascinated I become with the endless possibilities in the tech world. Every new concept or tool I encounter sparks my curiosity and drives me to dig deeper.
             </p>
             <p className="mt-4 indent-4">
-              he was running from a cop cahh aw god maf damn im herfe to sell this racecar my do you wanna buy this racecar? barabque bacon burger biscuit ohhhh my goawaad oohhhh my gawwwaada iunm bouta cuiiiim awwwwwwwwhaa
+              When i'm not coding. I like to bowl, play table tennis, and play videogames.
             </p>
           </div>
         </div>

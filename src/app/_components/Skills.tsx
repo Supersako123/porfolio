@@ -9,7 +9,7 @@ export default function Skills(props) {
         <div className="z-[1] mt-9 flex flex-col text-center border-black border-r-2 pr-32 xl:pr-5 md+:hidden">
           <h1 className="font-bold text-[2.7rem]"> Tech Stack </h1>
           <h2 className="font-bold max-w-[35rem] self-center text-left mb-6 min-w-96">
-            Heres the cool stuff that I use to bring your website to life! Im putting this text here because without it, this section will have too much whitespace and look empty!
+           These are the technologies that I use most in my projects.
           </h2>
           <div className="mt-4 z-[1] text-center rounded-3xl flex flex-wrap gap-4">
             <Skill imagePath="/react-1-logo.svg" name="React" />
@@ -35,7 +35,7 @@ export default function Skills(props) {
     
         <div className="z-10  flex-col w-full hidden md+:block">
           <h1 className="font-bold text-[2.2rem] text-center"> Tech Stack </h1>
-          <h2 className="font-semibold text-center">I use these cool tools to bring your website to life!</h2>
+          <h2 className="font-semibold text-center">These are the technologies that I use most in my projects.</h2>
           <div className="flex flex-wrap justify-center gap-6 mt-6 ">
             <Skill imagePath="/react-1-logo.svg" name="React" />
             <Skill imagePath="/JavaScript-logo.png" name="Javascript" />
