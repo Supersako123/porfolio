@@ -7,7 +7,7 @@ export default function AboutMe() {
         <div className="">
           <p className="relative text-left font-bold text-[4rem] top-[-20px] lg:text-center lg:text-[3rem] lg:mt-4">About Me</p>
           <div className="flex gap-56 h-auto">
-            <div style={{ width: 'clamp(350px, 50vw, 650px)' }} className="lg:text-center lg:p-4 text-black font-semibold text-[17px]">
+            <div style={{ width: "clamp(350px, 50vw, 650px)" }} className="lg:text-center lg:p-4 text-black font-semibold text-[17px]">
               <p>
               I&apos;m a junior at UNLV with a passion for programming. While I was first introduced to coding in college, i&apos;ve always been facinated with technology. As a kid I would spend hours modding some of my favorite games.
               </p>
@@ -20,7 +20,7 @@ export default function AboutMe() {
             </div>
           </div>
         </div>
-        <div className="">
+        <div>
         <img src="/landscape-placeholder.svg" className="h-[400px] sm:h-[350px] p-2 bg-[#0f172a] mt-4 lg:mt-0 " />
         </div>
       </div>
