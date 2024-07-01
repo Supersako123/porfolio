@@ -11,26 +11,26 @@ export default function Home(props) {
 
 
   return (
-    <div className="flex w-full h-screen homePageGradient items-center justify-evenly Slanted">
+    <div className="flex w-full h-[95vh] homePageGradient items-center justify-evenly Slanted">
 
       <div>
         <div className="text-[1.2rem] flex flex-col mt-40 fadein-left sm:text-center sm:mt-10">
           <div className="text-[21px] font-semibold">Hi, my name is</div>
           <h1 className="text-[clamp(35px,4.5vw,4.5vw)] min-text font-bold">Jonathan Sako.</h1>
           <div className="flex w-[42rem] pb-8 text-[1.2rem] font-semibold sm:hidden sm:px-5">
-          I am a dedicated font end web developer with a passion for innovation and simplicity. I love learning new things and am committed to producing industry-standard web experiences.
+          I am a dedicated font end web developer with a passion for innovation and creativity. I love learning new things and am committed to producing industry-standard web experiences.
 
             </div>
             <div className="w-[40rem] pb-8 text-[1.2rem] font-semibold sm:w-[20rem] sm:block hidden sm:self-center sm:px-5">
             I am a front end web developer with a passion
-            for innovation and simplicity
+            for innovation and creativity
             </div>
         </div>
         <div className="flex fade-in-button gap-6 sm:flex-col sm:columns-1 sm:gap-2 sm:w-56 sm:ml-auto sm:mr-auto">
           <MyButton onClick={() =>props.skillsRef.current.scrollIntoView({ behavior: "smooth", block: "center"})}>Skills</MyButton>
-          <MyButton onClick={() =>props.aboutRef.current.scrollIntoView({ behavior: "smooth", block: "start"})}>About</MyButton>
-          <MyButton onClick={() =>props.projectRef.current.scrollIntoView({ behavior: "smooth", block: "start"})}>Projects</MyButton>
-          <MyButton>Contact</MyButton>
+          <MyButton onClick={() =>props.aboutRef.current.scrollIntoView({ behavior: "smooth", block: "center"})}>About</MyButton>
+          <MyButton onClick={() =>props.projectRef.current.scrollIntoView({ behavior: "smooth", block: "start"})}>Projects</MyButton>   
+          <MyButton onClick={() =>props.contactRef.current.scrollIntoView({ behavior: "smooth", block: "center"})}>Contact</MyButton> 
         </div>
       </div>
       <div className="flex flex-col relative pt-60 fadein-right z-[1] xl:hidden ">

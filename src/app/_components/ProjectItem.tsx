@@ -31,17 +31,17 @@ export default function ProjectItem(props: ProjectInfo) {
         <div className="flex flex-wrap xl:justify-center">{Tags}</div>
         <p className="mt-3 text-[1.1rem]"><span className="font-bold">Project Type:</span> {props.projectType}</p>
         <p className="mt-3 text-[1.02rem] mb-4 sm:w-[300px] self-center">{props.description}</p>
-        <p className="mb-3 italic">{props.note}</p>
+        {props.note && <p className="mb-3 italic">{props.note}</p>}
         <div className="flex xl:justify-center">
         <MyButton variant="small" link= {props.liveLink}>See Live</MyButton>
-        <MyButton variant="small" link= {"https://www.op.gg/"} >Source Code</MyButton>
+        <MyButton variant="small" link= {props.sourceLink} >Source Code</MyButton>
      
          </div>
       </div>
 
-      <div className="flex sm:ml-auto h-[360px] w-[610px] sm:w-[330px] sm:h-[220px]">
+      <div className="flex sm:ml-auto sm:mr-auto xl:pt-4 h-[343px] w-[610px] sm:w-[330px] sm:h-[220px] ">
 
-      <iframe width="100%" height="100%" className="pt-4 self-center"  src= {props.videoLink} title="Youtube API Project - How to Scrape Youtube Videos Data" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerPolicy="strict-origin-when-cross-origin"></iframe>
+      <iframe width="100%" height="100%" className="self-center"  src= {props.videoLink} title="Youtube API Project - How to Scrape Youtube Videos Data" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerPolicy="strict-origin-when-cross-origin"></iframe>
 
       </div>
 

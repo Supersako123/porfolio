@@ -10,6 +10,7 @@ import Footer from "./_components/Footer";
 import { useRef } from "react";
 import React from 'react'
 import AboutMe from "./_components/AboutMe";
+import { ContactUs } from "./_components/Contact";
 
 
 export default function Website() {
@@ -17,6 +18,7 @@ export default function Website() {
   const skillsRef = useRef(null)
   const aboutRef = useRef(null)
   const projectRef = useRef(null)
+  const contactRef = useRef(null)
 
 
   return (
@@ -25,11 +27,13 @@ export default function Website() {
         skillsRef={skillsRef}
         aboutRef={aboutRef}
         projectRef={projectRef}
+        contactRef={contactRef}
       />
       <Home
         skillsRef={skillsRef}
         aboutRef={aboutRef}
         projectRef={projectRef}
+        contactRef={contactRef}
       />
       <div ref={skillsRef}>
         <Skills />
@@ -39,6 +43,9 @@ export default function Website() {
       </div>
       <div ref={projectRef}>
         <Projects />
+      </div>
+      <div ref={contactRef}>
+      <ContactUs/>
       </div>
       <Footer/>
     </div>

@@ -25,7 +25,8 @@ export default function Navbar(props) {
               <div className="flex items-center cursor-pointer  hover:bg-white hover:text-[#0f172a]" onClick={() => props.skillsRef.current.scrollIntoView({ behavior: "smooth", block: "center" })}>Skills</div>
               <div className="flex items-center cursor-pointer  hover:bg-white hover:text-[#0f172a]" onClick={() => props.aboutRef.current.scrollIntoView({ behavior: "smooth", block: "start" })}>About</div>
               <div className="flex items-center cursor-pointer  hover:bg-white hover:text-[#0f172a]" onClick={() => props.projectRef.current.scrollIntoView({ behavior: "smooth", block: "start" })}>Projects</div>
-              <div className="flex items-center cursor-pointer  hover:bg-white hover:text-[#0f172a]">Contact</div>
+              <div className="flex items-center cursor-pointer  hover:bg-white hover:text-[#0f172a]" onClick={() => props.contactRef.current.scrollIntoView({ behavior: "smooth", block: "center"})} >Contact</div>
+              <div className="flex items-center cursor-pointer  hover:bg-white hover:text-[#0f172a]" onClick={() => window.open("\Resume_JS.pdf", "_blank")}>Resume</div>
             </div>
           </div>
           <img className="w-[35px] ml-12 md:block hidden cursor-pointer" onClick={handleMenuActive} src={isMenuActive ? `\cross.svg` : `\Hamburger_icon.svg`}></img>
@@ -38,7 +39,8 @@ export default function Navbar(props) {
             <div className="flex justify-center items-center w-full h-[70px] bg-slate-600 text-white font-semibold transition-colors duration-700 active:bg-slate-400 active:duration-0 cursor-pointer" onClick={() => { props.skillsRef.current.scrollIntoView({ behavior: "smooth", block: "center" }); handleMenuActive() }}>Skills</div>
             <div className="flex justify-center items-center w-full h-[70px] bg-slate-600 text-white font-semibold transition-colors duration-700 active:bg-slate-400 active:duration-0 cursor-pointer" onClick={() => { props.aboutRef.current.scrollIntoView({ behavior: "smooth", block: "start" }); handleMenuActive() }}>About</div>
             <div className="flex justify-center items-center w-full h-[70px] bg-slate-600 text-white font-semibold transition-colors duration-700 active:bg-slate-400 active:duration-0 cursor-pointer" onClick={() => { props.projectRef.current.scrollIntoView({ behavior: "smooth", block: "start" }); handleMenuActive() }}>Projects</div>
-            <div className="flex justify-center items-center w-full h-[70px] bg-slate-600 text-white font-semibold">Resume</div>
+            <div className="flex justify-center items-center w-full h-[70px] bg-slate-600 text-white font-semibold" onClick={() =>{props.contactRef.current.scrollIntoView({ behavior: "smooth", block: "center"}); handleMenuActive()}} >Contact</div>
+            <div className="flex justify-center items-center w-full h-[70px] bg-slate-600 text-white font-semibold" onClick={() => window.open("\Resume_JS.pdf", "_blank")} >Resume</div>
           </div>
         </div>
       </div>
