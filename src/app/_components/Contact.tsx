@@ -49,7 +49,7 @@ export const ContactUs = () => {
     
     <div className='items-center justify-center flex text-center flex-col pb-32 bg-[#e0f4fb]'>
       <h1 className='font-bold text-[3rem] mt-32'>Contact</h1>
-      <p className='w-[700px] font-semibold md+:w-[350px]'>Send me a message and I'll get back to you as quickly as possible! You can also use my email at <button className='text-blue-600 underline' onClick={handleCopyEmail}>infinitesako@gmail.com</button></p>
+      <p className='w-[700px] font-semibold md+:w-[350px]'>Send me a message and I&lsquo;ll get back to you as quickly as possible! You can also use my email at <button className='text-blue-600 underline' onClick={handleCopyEmail}>infinitesako@gmail.com</button></p>
     <form ref={form} onSubmit={sendEmail} className='flex flex-col mt-10 md+:w-[20rem] w-[50rem] gap-3'>
       <input type="text" placeholder="Name"  name="from_name" className='border-[1px] border-black p-2 bg-gray-100 focus:outline-double' />
       <input type="email" placeholder='Email' name="from_email" className='border-[1px] border-black p-2 bg-gray-100 focus:outline-double'/>
