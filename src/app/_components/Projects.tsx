@@ -25,6 +25,7 @@ export default function Projects() {
           react, typescript, and tailwind."
           note=""
           videoLink="https://www.youtube.com/embed/PMWvLiC3YIE"
+          sourceLink="https://github.com/Supersako123/porfolio"
         />
          <ProjectItem
           title="Vehicle Cards"

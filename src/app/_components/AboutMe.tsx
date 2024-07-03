@@ -21,7 +21,7 @@ export default function AboutMe() {
           </div>
         </div>
         <div>
-        <img src="/landscape-placeholder.svg" className="h-[400px] sm:h-[350px] p-2 bg-[#0f172a] mt-4 lg:mt-0 " />
+        <img src="\xCRHIiRh7X.jpg" className="h-[400px] sm:h-[350px] p-2 bg-[#0f172a] mt-4 lg:mt-0 " />
         </div>
       </div>
     </div>
