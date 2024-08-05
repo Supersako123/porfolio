@@ -28,6 +28,16 @@ export default function Projects() {
           sourceLink="https://github.com/Supersako123/porfolio"
         />
          <ProjectItem
+          title="Petsoft"
+          tools={["Next", "React", "Javascript", "Typescript", "NextAuthV5", "React Hook Form", "ZOD", "Prisma", "Shadcn" ]}
+          projectType="Personal project"
+          description="This websites uses data to create informational cards seen on Autotrader"
+          note=""
+          videoLink="https://www.youtube.com/embed/1x-ygMYaElo"
+          liveLink="https://flourishing-kitsune-3e8336.netlify.app"
+          sourceLink="https://github.com/Supersako123/Vehicle-cards"
+        />
+         <ProjectItem
           title="Vehicle Cards"
           tools={["React", "Javascript"]}
           projectType="Personal project"
