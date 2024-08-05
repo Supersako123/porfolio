@@ -27,7 +27,7 @@ export default function Projects() {
           videoLink="https://www.youtube.com/embed/PMWvLiC3YIE"
           sourceLink="https://github.com/Supersako123/porfolio"
         />
-         <ProjectItem
+      {/*    <ProjectItem
           title="Petsoft"
           tools={["Next", "React", "Javascript", "Typescript", "NextAuthV5", "React Hook Form", "ZOD", "Prisma", "Shadcn" ]}
           projectType="Personal project"
@@ -36,7 +36,7 @@ export default function Projects() {
           videoLink="https://www.youtube.com/embed/1x-ygMYaElo"
           liveLink="https://flourishing-kitsune-3e8336.netlify.app"
           sourceLink="https://github.com/Supersako123/Vehicle-cards"
-        />
+        /> */}
          <ProjectItem
           title="Vehicle Cards"
           tools={["React", "Javascript"]}
