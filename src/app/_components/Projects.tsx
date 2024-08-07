@@ -27,21 +27,22 @@ export default function Projects() {
           videoLink="https://www.youtube.com/embed/PMWvLiC3YIE"
           sourceLink="https://github.com/Supersako123/porfolio"
         />
-      {/*    <ProjectItem
+          <ProjectItem
           title="Petsoft"
-          tools={["Next", "React", "Javascript", "Typescript", "NextAuthV5", "React Hook Form", "ZOD", "Prisma", "Shadcn" ]}
+          tools={["Next", "React", "Javascript", "Typescript", "NextAuthV5", "React Hook Form", "ZOD", "Prisma", "Shadcn", "Bcrypt" ]}
           projectType="Personal project"
-          description="This websites uses data to create informational cards seen on Autotrader"
-          note=""
-          videoLink="https://www.youtube.com/embed/1x-ygMYaElo"
-          liveLink="https://flourishing-kitsune-3e8336.netlify.app"
-          sourceLink="https://github.com/Supersako123/Vehicle-cards"
-        /> */}
+          description="A CRUD application designed for pet management. It allows users to add,
+           delete, and edit pet information within a robust and user-friendly interface."
+          note="For convenience, a test account is automatically filled in on the login page."
+          videoLink="https://youtu.be/3t8kOCaBBrU"
+          liveLink="https://petsoft-project-two.vercel.app/"
+          sourceLink="https://github.com/Supersako123/petsoft-project"
+        /> 
          <ProjectItem
           title="Vehicle Cards"
           tools={["React", "Javascript"]}
           projectType="Personal project"
-          description="This websites uses data to create informational cards seen on Autotrader"
+          description="Uses data to create informational cards seen on Autotrader."
           note=""
           videoLink="https://www.youtube.com/embed/1x-ygMYaElo"
           liveLink="https://flourishing-kitsune-3e8336.netlify.app"
