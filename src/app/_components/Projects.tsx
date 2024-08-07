@@ -34,7 +34,7 @@ export default function Projects() {
           description="A CRUD application designed for pet management. It allows users to add,
            delete, and edit pet information within a robust and user-friendly interface."
           note="For convenience, a test account is automatically filled in on the login page."
-          videoLink="https://youtu.be/3t8kOCaBBrU"
+          videoLink="https://www.youtube.com/embed/3t8kOCaBBrU"
           liveLink="https://petsoft-project-two.vercel.app/"
           sourceLink="https://github.com/Supersako123/petsoft-project"
         /> 
