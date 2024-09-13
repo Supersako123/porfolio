@@ -9,7 +9,7 @@ export default function Skills(props) {
         <div className="z-[1] mt-9 flex flex-col text-center border-black border-r-2 pr-32 xl:pr-5 md+:hidden">
           <h1 className="font-bold text-[2.7rem]"> Tech Stack </h1>
           <h2 className="font-semibold max-w-[35rem] self-center text-center mb-6 min-w-96 text-[17px]">
-           These are the technologies that I use most in my projects. currently I&apos;m learning SQL and mySQL.
+           These are the technologies that I use most in my projects. currently I&apos;m learning SQL and PHP.
           </h2>
           <div className="mt-4 z-[1] text-center rounded-3xl flex flex-wrap gap-4">
             <Skill imagePath="/react-1-logo.svg" name="React" />
@@ -33,7 +33,7 @@ export default function Skills(props) {
 
         <div className="z-10  flex-col w-full hidden md+:block">
           <h1 className="font-bold text-[2.2rem] text-center"> Tech Stack </h1>
-          <h2 className="font-semibold text-center">These are the technologies that I use most in my projects. currently I&apos;m learning SQL and mySQL.</h2>
+          <h2 className="font-semibold text-center">These are the technologies that I use most in my projects. currently I&apos;m learning SQL and PHP.</h2>
           <div className="flex flex-wrap justify-center gap-6 mt-6 ">
             <Skill imagePath="/react-1-logo.svg" name="React" />
             <Skill imagePath="/JavaScript-logo.png" name="Javascript" />
