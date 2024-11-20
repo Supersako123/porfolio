@@ -16,7 +16,7 @@ export default function Projects() {
           It offers a secure and user-friendly interface."
           note="Note: For convenience, a test account is automatically filled in on the login page. "
           liveLink="https://inventory-tz6to.ondigitalocean.app/"
-          videoLink="https://youtu.be/MmK98rmvi7M"
+          videoLink="https://www.youtube.com/embed/MmK98rmvi7M"
           sourceLink="https://github.com/Supersako123/Inventory"
         />
         <ProjectItem
