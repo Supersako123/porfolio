@@ -15,7 +15,7 @@ export default function AboutMe() {
               I began learning JavaScript and web development while in college, and it quickly became a major interest of mine. I&apos;m always improving my front end skills, and I&apos;m currently learning about the realm of back-end development.
               </p>
               <p className="mt-4">
-                besides coding, I enjoy bowling, learning spongebob songs on my guitar, and playing video games
+                besides coding, I enjoy bowling, learning songs from spongebob on my guitar, and playing video games.
               </p>
             </div>
           </div>
