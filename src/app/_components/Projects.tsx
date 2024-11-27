@@ -25,7 +25,7 @@ export default function Projects() {
           projectType="Personal project"
           description="A real estate website that uses the Google Maps API to display property locations. Cards are dynamically updated as users navigate. The design is inspired by leading real estate websites."
           note="Note: Housing information is based off of randomized data"
-          liveLink="https://sparkling-narwhal-aaeb50.netlify.app/"
+          liveLink="https://realestatesako.netlify.app"
           videoLink="https://www.youtube.com/embed/UTBdFVsFQI0"
           sourceLink="https://github.com/Supersako123/Real-estate-"
         />
