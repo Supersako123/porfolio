@@ -9,10 +9,10 @@ export default function AboutMe() {
           <div className="flex gap-56 h-auto">
             <div style={{ width: "clamp(350px, 50vw, 650px)" }} className="lg:text-center lg:p-4 text-black font-semibold text-[17px]">
               <p>
-              I&apos;m a junior at UNLV with a passion for programming. While I was first introduced to coding in college, i&apos;ve always been facinated with technology. As a kid I would spend hours modding some of my favorite games.
+              I&apos;m a junior at UNLV with a passion for programming. While I first discovered coding in college, my interest in technology developed gradually. As I grew older, I became increasingly curious about how the tools and platforms I used every day were built, which inspired me to pursue a deeper understanding of programming and web development.
               </p>
               <p className="mt-4">
-              I began learning JavaScript and web development while in college, and it quickly became a major interest of mine. I&apos;m always improving my front end skills, and I&apos;m currently learning about the realm of back-end development.
+             I started with JavaScript while in college, and it quickly became a major interest of mine. Over time, I&apos;ve developed strong skills in both front-end and back-end development.
               </p>
               <p className="mt-4">
                 besides coding, I enjoy bowling, learning songs from spongebob on my guitar, and playing video games.

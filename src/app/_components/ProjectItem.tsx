@@ -39,12 +39,13 @@ export default function ProjectItem(props: ProjectInfo) {
          </div>
       </div>
 
-      <div className="flex sm:ml-auto sm:mr-auto xl:pt-4 h-[343px] w-[610px] sm:w-[330px] sm:h-[220px] ">
+      <div className="h-full flex items-center">
+      <div className="flex sm:ml-auto sm:mr-auto xl:pt-4 h-[343px] w-[610px] sm:w-[330px] sm:h-[220px]">
 
       <iframe width="100%" height="100%" className="self-center"  src= {props.videoLink} title="Youtube API Project - How to Scrape Youtube Videos Data" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerPolicy="strict-origin-when-cross-origin"></iframe>
 
       </div>
-
+      </div>
     </div>
   )
 
