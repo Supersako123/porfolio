@@ -18,12 +18,11 @@ export default function Home(props) {
           <div className="text-[21px] font-semibold">Hi, my name is</div>
           <h1 className="text-[clamp(35px,4.5vw,4.5vw)] min-text font-bold">Jonathan Sako.</h1>
           <div className="flex w-[42rem] pb-8 text-[1.2rem] font-semibold sm:hidden sm:px-5">
-          I am a dedicated full-stack web developer with a passion for innovation and creativity. I love learning new things and am committed to producing industry-standard web experiences.
+          I am a computer science major with an interest in web developement. I enjoy solving problems and take pride in creating reliable, well-crafted web experiences.
 
             </div>
             <div className="w-[40rem] pb-8 text-[1.2rem] font-semibold sm:w-[20rem] sm:block hidden sm:self-center sm:px-5">
-            I am a full-stack web developer with a passion
-            for innovation and creativity
+            I am a computer science major with an interest in web developement.
             </div>
         </div>
         <div className="flex fade-in-button gap-6 sm:flex-col sm:columns-1 sm:gap-2 sm:w-56 sm:ml-auto sm:mr-auto">

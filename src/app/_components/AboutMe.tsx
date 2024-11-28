@@ -12,7 +12,7 @@ export default function AboutMe() {
               I&apos;m a junior at UNLV with a passion for programming. While I first discovered coding in college, my interest in technology developed gradually. As I grew older, I became increasingly curious about how the tools and platforms I used every day were built, which inspired me to pursue a deeper understanding of programming and web development.
               </p>
               <p className="mt-4">
-             I started with JavaScript while in college, and it quickly became a major interest of mine. Over time, I&apos;ve developed strong skills in both front-end and back-end development.
+             I started with JavaScript while in college, and it quickly became a major interest of mine. Over time, I&apos;ve developed a balanced skillset of both front-end and back-end development.
               </p>
               <p className="mt-4">
                 besides coding, I enjoy bowling, learning songs from spongebob on my guitar, and playing video games.
