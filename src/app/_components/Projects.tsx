@@ -14,8 +14,8 @@ export default function Projects() {
           description="A web app designed to streamline inventory tracking and sales management. 
           The system features role-based access control for admins and users, group-based collaboration, products grouped by categories, and sales tracking. 
           It offers a secure and user-friendly interface."
-          note="Note: For convenience, a test account is automatically filled in on the login page. "
-          liveLink="https://inventory-tz6to.ondigitalocean.app/"
+          note="Note: Due to the increased cost of database hosting, the live site is temporarily unavaiable. Please refer to the provided video and the source code on github "
+          liveLink=""
           videoLink="https://www.youtube.com/embed/MmK98rmvi7M"
           sourceLink="https://github.com/Supersako123/Inventory"
         />
